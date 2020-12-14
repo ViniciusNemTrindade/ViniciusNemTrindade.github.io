@@ -29,9 +29,8 @@
 }
 
 .avatar {
-  width: 154%;
-  text-align: center;
-  display: inline-block;
-  float: right;
+  left: 15%;
+  display: inline;
+  float: left;
   position: relative;
 }
