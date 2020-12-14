@@ -4,33 +4,31 @@
 }
 
 /**Background setting up**/
-.bg_image {
+#bg_image {
   display: table;
   background-image: url(images_css/solo_cartoon.png);
+  display: table;
   width: 100%;
   height: 100vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat repeat;
+  padding: 100px 0;
   opacity: 0.2;
+  background-position: 30% 45%;
+  background-size: cover;
   position: fixed;
-}
-
-.avatar {
-  left: 15%;
-  display: inline;
-  float: left;
-  position: relative;
 }
 
 /**position and text style**/
 .text_style {
   position: absolute; /**Background image overlaying**/
-  width: 100%;
-  text-align: center;
-  font-family:'Fantasy';
-  color: #FF0002;
-  font-size: 100px;
-  text-shadow: 10px 10px #0000FF;
-  top: 16px;
+  top: 8px;
+  right: 8px%;
+  color: #FDB827;
+  font-family: 'Fantasy', sans-serif;
+  text-shadow: 3px 3px #21209C;
+}
+
+.avatar {
+  top: 10%;
+  left: 22%;
+  position: absolute;
 }
