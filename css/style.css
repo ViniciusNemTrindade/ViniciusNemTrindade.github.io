@@ -19,18 +19,19 @@
 /**position and text style**/
 .text_style {
   position: absolute; /**Background image overlaying**/
-  top: 20%;
-  left: 40%;
-  color: #d9dadb;
-  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  text-align: center;
+  font-family:'Fantasy';
+  color: #FF0002;
   font-size: 100px;
+  text-shadow: 10px 10px #0000FF;
+  top: 16px;
 }
 
 .avatar {
- display: flex;
- width: 154%;
- text-align: center;
- display: inline-block;
- float: right;
- position: relative;
+  width: 154%;
+  text-align: center;
+  display: inline-block;
+  float: right;
+  position: relative;
 }
