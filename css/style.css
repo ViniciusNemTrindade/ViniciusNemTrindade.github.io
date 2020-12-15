@@ -12,7 +12,9 @@
   height: 100vh;
   padding: 100px 0;
   opacity: 0.2;
-  background-position: 30% 45%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   position: fixed;
 }
